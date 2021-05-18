@@ -1,9 +1,9 @@
 
-//#ifdef __GCC_IEC_559 
-//#pragma message("GCC ICE 559 defined...")
-//#else
-//#error *** do not use this platform
-//#endif
+#ifdef __GCC_IEC_559 
+#pragma message("GCC ICE 559 defined...")
+#else
+#error *** do not use this platform
+#endif
 
 
 #include <stdint.h>
